@@ -49,7 +49,12 @@ This comprehensive EDA approach provided valuable insights into the dataset, ena
   * [Neural_network_Sentiment_Analsys_model/Sentiment_Analysis_PCA.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_Sentiment_Analsys_model/Sentiment_Analysis_PCA.ipynb)
 * Neural network drug name cluster model
   * [Neural_network_Drug_name_cluster_model/Neural_Network_with_DrugNameTarget.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_Drug_name_cluster_model/Neural_Network_with_DrugNameTarget.ipynb)
-
+    
+## Tableau links
+* [Drug_name_dashboard](https://public.tableau.com/app/profile/pallavi.tripathi/viz/Neural_NEtwork_Drug_name/Drug_name_dashboard)
+* [Rating_dashboard](https://public.tableau.com/app/profile/ranjini.rao1648/viz/Neural-Network_PharmaProbe_Rating/correlationbetweentheusefulCountandratingofdrugs?publish=yes)
+* [Scatter plot with linear regression](https://public.tableau.com/app/profile/madhavi.pandey/viz/Project4_17091757165050/ScatterPlotWithLinearRegression)
+* [Histrogram of usefulcounts](https://public.tableau.com/app/profile/madhavi.pandey/viz/Project_4_17091757836620/HistogramofusefulCount)
 
 ## Neural Network Drug Name cluster model
 **Problem**: To check if we can predict the drug cluster for a drug with high confidence using features such as 
