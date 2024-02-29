@@ -37,12 +37,26 @@ We utilized various visualization techniques to present our findings effectively
 
 This comprehensive EDA approach provided valuable insights into the dataset, enabling us to identify patterns, outliers, and relationships between variables. The findings serve as a solid foundation for further data exploration, modeling, and decision-making processes.
 
+## Useful files
+* Neural network condition cluster model
+  * [Neural_network_condtion_cluster_model/BERT_Tokenization.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_condtion_cluster_model/BERT_Tokenization.ipynb)
+  * [Neural_network_condtion_cluster_model/Clean_Neural_Net_No_PCA_for_Testing.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_condtion_cluster_model/Clean_Neural_Net_No_PCA_for_Testing.ipynb)
+  * [Neural_network_condtion_cluster_model/With_Sentiment_.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_condtion_cluster_model/With_Sentiment_.ipynb)
+* Neural network sentiment analysis model
+  * [Neural_network_Sentiment_Analsys_model/OpenAI_Review_Sentiment.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_Sentiment_Analsys_model/OpenAI_Review_Sentiment.ipynb)
+  * [Neural_network_Sentiment_Analsys_model/PCA.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_Sentiment_Analsys_model/PCA.ipynb)
+  * [Neural_network_Sentiment_Analsys_model/Sentiment_Analysis.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_Sentiment_Analsys_model/Sentiment_Analysis.ipynb)
+  * [Neural_network_Sentiment_Analsys_model/Sentiment_Analysis_PCA.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_Sentiment_Analsys_model/Sentiment_Analysis_PCA.ipynb)
+* Neural network drug name cluster model
+  * [Neural_network_Drug_name_cluster_model/Neural_Network_with_DrugNameTarget.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_Drug_name_cluster_model/Neural_Network_with_DrugNameTarget.ipynb)
+
+
 ## Neural Network Drug Name cluster model
 **Problem**: To check if we can predict the drug cluster for a drug with high confidence using features such as 
 1) embedded review,
 2) ratings,
 3) useful_count and
-4)  drug name dummy variable.
+4) drug name dummy variable.
 
 ### File location
 [Neural_network_Drug_name_cluster_model/Neural_Network_with_DrugNameTarget.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/tree/main/Neural_network_Drug_name_cluster_model)
