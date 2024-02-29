@@ -45,7 +45,7 @@ This comprehensive EDA approach provided valuable insights into the dataset, ena
 4)  drug name dummy variable.
 
 ### File location
-[Neural_network_Drug_name_cluster_model](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/tree/main/Neural_network_Drug_name_cluster_model)
+[Neural_network_Drug_name_cluster_model/Neural_Network_with_DrugNameTarget.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/tree/main/Neural_network_Drug_name_cluster_model)
 
 ### Model training approaches
 We used word2vec google library to embed the drug name.This library organizes words based on their meanings, grouping similar words together closely in a geometric space. Then we used K-Means to group these words into clusters.
