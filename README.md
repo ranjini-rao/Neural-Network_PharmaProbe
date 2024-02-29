@@ -37,7 +37,7 @@ We utilized various visualization techniques to present our findings effectively
 
 This comprehensive EDA approach provided valuable insights into the dataset, enabling us to identify patterns, outliers, and relationships between variables. The findings serve as a solid foundation for further data exploration, modeling, and decision-making processes.
 
-## Useful files
+## Useful files of models
 * Neural network condition cluster model
   * [Neural_network_condtion_cluster_model/BERT_Tokenization.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_condtion_cluster_model/BERT_Tokenization.ipynb)
   * [Neural_network_condtion_cluster_model/Clean_Neural_Net_No_PCA_for_Testing.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_condtion_cluster_model/Clean_Neural_Net_No_PCA_for_Testing.ipynb)
