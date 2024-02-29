@@ -38,14 +38,19 @@ We utilized various visualization techniques to present our findings effectively
 This comprehensive EDA approach provided valuable insights into the dataset, enabling us to identify patterns, outliers, and relationships between variables. The findings serve as a solid foundation for further data exploration, modeling, and decision-making processes.
 
 ## Neural Network Drug Name cluster model
-**Problem**: To check if we can predict the drug cluster for a drug with high confidence using features such as 1) embedded review, 2) ratings, 3) useful_count and 4) drug name dummy variable.
+**Problem**: To check if we can predict the drug cluster for a drug with high confidence using features such as 
+1) embedded review,
+2) ratings,
+3) useful_count and
+4)  drug name dummy variable.
 
 ### File location
 [Neural_network_Drug_name_cluster_model](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/tree/main/Neural_network_Drug_name_cluster_model)
 
-### Experiment
+### Model training approaches
 We used word2vec google library to embed the drug name.This library organizes words based on their meanings, grouping similar words together closely in a geometric space. Then we used K-Means to group these words into clusters.
 By using all available features (including drug name) and a similar Neural Net structure, our team was able to classify the Drug Name cluster with 95.41% accuracy.
+
 Such a high prediction accuracy asserts that clustering was done appropriately and if a prediction is made for a new Drug, it is highly likely for it to be placed in correct cluster.
 
 <img width="942" alt="Screenshot 2024-02-29 at 4 00 15 PM" src="https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/139268721/d429734d-f6c5-4606-a3aa-7e67a4006527">
