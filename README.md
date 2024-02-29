@@ -1,6 +1,8 @@
 # Neural-Network_PharmaProbe
 
+# Project Outline
 
+<img width="657" alt="image" src="https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/81578500/b763e3b1-c4ca-4f85-92d7-5f99ce9ce16e">
 
 
 # Exploratory Data Analysis (EDA)
