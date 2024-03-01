@@ -92,7 +92,8 @@ Given we can now predict drug cluster with high accuracy, we will have high conf
 2. This can also be useful for seller companies to advertise/promote/recommend similar drugs if a customer is interested in particular type of drug.
 
 
-### Neural Network for Classifying Review Conditions
+### Neural Network for Classifying Conditions
+
 This neural network project aims to classify the condition cluster based on drug reviews. The project utilizes various techniques such as tokenization, embedding, data preprocessing, neural network classification, hyperparameter tuning, and feature engineering.
 
 Steps:
