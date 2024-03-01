@@ -49,7 +49,12 @@ This comprehensive EDA approach provided valuable insights into the dataset, ena
   * [Neural_network_Sentiment_Analsys_model/Sentiment_Analysis_PCA.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_Sentiment_Analsys_model/Sentiment_Analysis_PCA.ipynb)
 * Neural network drug name cluster model
   * [Neural_network_Drug_name_cluster_model/Neural_Network_with_DrugNameTarget.ipynb](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/blob/main/Neural_network_Drug_name_cluster_model/Neural_Network_with_DrugNameTarget.ipynb)
-
+    
+## Tableau links
+* [Drug_name_dashboard](https://public.tableau.com/app/profile/pallavi.tripathi/viz/Neural_NEtwork_Drug_name/Drug_name_dashboard)
+* [Rating_dashboard](https://public.tableau.com/app/profile/ranjini.rao1648/viz/Neural-Network_PharmaProbe_Rating/correlationbetweentheusefulCountandratingofdrugs?publish=yes)
+* [Scatter plot with linear regression](https://public.tableau.com/app/profile/madhavi.pandey/viz/Project4_17091757165050/ScatterPlotWithLinearRegression)
+* [Histrogram of usefulcounts](https://public.tableau.com/app/profile/madhavi.pandey/viz/Project_4_17091757836620/HistogramofusefulCount)
 
 ## Neural Network Drug Name cluster model
 **Problem**: To check if we can predict the drug cluster for a drug with high confidence using features such as 
@@ -85,3 +90,42 @@ As we can see here that accuracy is pretty high (greater than 88%) for all the c
 Given we can now predict drug cluster with high accuracy, we will have high confidence to put a new drug into pre-existing clusters. 
 1. This approach can particularly useful for pharma companies who would want to group similar drugs together for storage and/or disposal purposes.
 2. This can also be useful for seller companies to advertise/promote/recommend similar drugs if a customer is interested in particular type of drug.
+
+
+### Neural Network for Classifying Conditions
+
+This neural network project aims to classify the condition cluster based on drug reviews. The project utilizes various techniques such as tokenization, embedding, data preprocessing, neural network classification, hyperparameter tuning, and feature engineering.
+
+Steps:
+Step 1: Tokenization and Embedding with BERT
+Utilized BERT to tokenize and embed the review column using Pandas DataFrames.
+BERT (Bidirectional Encoder Representations from Transformers) is employed to convert the textual data into numerical vectors, capturing the semantic meaning of words in the reviews.
+
+Step 2: Neural Network Classification
+Split the data into test and train sets using scikit-learn.
+Scaled the data to ensure consistent feature ranges.
+Implemented a neural network using TensorFlow to classify the condition cluster based on the embedded reviews.
+
+Step 3: Assessment of Classification Accuracy
+Used NumPy to assess the accuracy of the classifications made by the neural network.
+Step 4: Hyperparameter Tuning with Keras Tuner
+Employed Keras Tuner to tune the hyperparameters of the neural network.
+Utilized the same features and target as in Step 2 to optimize the model's performance.
+
+Step 5: Feature Engineering with Additional Features
+Expanded the feature set by including additional features such as review length, drug cluster, rating, and useful count.
+Repeated Steps 2-4 with the augmented feature set to enhance the model's predictive capability.
+
+Step 6: Feature Engineering with Drug Name
+Added drug name as a feature and removed drug cluster.
+Utilized Pandas' get_dummies function to convert drug names into dummy columns for inclusion in the feature set.
+Repeated Steps 2-4 with the updated feature set, including drug names.
+
+Step 7: Sentiment Analysis as an Additional Feature
+Incorporated sentiment analysis of the reviews as an additional feature.
+Created dummy columns for sentiment analysis results.
+Repeated Steps 2-4 with the augmented feature set, including sentiment analysis results.
+
+Conclusion:
+This project demonstrates the use of neural networks for classifying condition clusters based on drug reviews. By leveraging advanced techniques such as tokenization, embedding, hyperparameter tuning, and feature engineering, the model's predictive accuracy and robustness are enhanced. Future improvements may involve exploring alternative neural network architectures, experimenting with different embeddings, and further refining feature engineering strategies.
+
