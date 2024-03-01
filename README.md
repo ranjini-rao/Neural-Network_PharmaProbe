@@ -163,4 +163,33 @@ From this metrics, we see that the model has an average accuracy of 80.1% with s
 ![image](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/81578500/1768c5d8-2b25-408c-96af-859ea8564ede)
 
 
+Sure, here's a README.md format summarizing the analyses described in the previous two messages:
+
+---
+
+# Drug Analysis README
+
+## Overview
+
+This repository contains analyses conducted on drug data to explore the relationship between drug ratings and various factors.
+
+## Analyses Conducted
+
+### 1. Correlation Analysis
+
+- **Objective:** Investigate the correlation between drug ratings and useful count values.
+- **Method:** Conducted correlation analysis to examine the relationship between drug ratings and useful count values.
+- **Result:** Found a clear positive correlation between drug ratings and useful count values, indicating that drugs with higher ratings tend to have higher useful counts.
+
+### 2. Rating Distribution Analysis
+
+- **Objective:** Analyze the distribution of drug ratings and identify top-rated drugs.
+- **Method:** Plotted a histogram of ratings to visualize the frequency of each rating value across all drugs. Identified top 20 rated drugs with a perfect rating of 10/10.
+- **Result:** Visualized the distribution of ratings and highlighted the top-rated drugs in the dataset.
+
+### 3. Seasonal Impact Analysis
+
+- **Objective:** Determine if seasonal variations impact drug rating values.
+- **Method:** Calculated the average ratings received per season to explore potential trends or patterns in ratings across different seasons.
+- **Result:** Investigated whether there are noticeable fluctuations in ratings based on the season in which the drug reviews were made.
 
