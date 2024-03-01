@@ -129,3 +129,22 @@ Repeated Steps 2-4 with the augmented feature set, including sentiment analysis 
 Conclusion:
 This project demonstrates the use of neural networks for classifying condition clusters based on drug reviews. By leveraging advanced techniques such as tokenization, embedding, hyperparameter tuning, and feature engineering, the model's predictive accuracy and robustness are enhanced. Future improvements may involve exploring alternative neural network architectures, experimenting with different embeddings, and further refining feature engineering strategies.
 
+### Neural Network for Sentimental Analysis
+This model aims to classify the sentiment of the drug reviews as Positive and negative. 
+
+![image](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/81578500/c213095e-2db6-4606-a44c-535a0d3e3b2d)
+
+Step 1: Data Preparation
+OpenAI chat completion API is prompted to label each of the reviews with sentiments as positive, negative and neutral.
+The labeling was done in bacthes with batch size of 500.
+The labeled reviews are written into CSV file
+
+Step 2: Review Embeddings
+BERT embedding are generated for the user reviews which have 768 components.
+
+Step 3:
+With input features as review embeddings and target as sentiment, a neural network model is built and trained.The accuracy of the model is 64.36%
+
+<img width="561" alt="image" src="https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/81578500/4559d423-8fd6-4a35-9f7f-0fa930c477e6">
+
+
