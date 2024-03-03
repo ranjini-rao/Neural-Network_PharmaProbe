@@ -31,7 +31,7 @@ We analyzed categorical columns in the dataset, particularly focusing on sicknes
 
 ## Visualization
 
-We utilized various visualization techniques to present our findings effectively. For instance, we plotted graphs to illustrate the relationships between variables, such as the correlation between useful count and review length. Additionally, we used a pie chart to visualize the occurrence of the top 10 sickness conditions in the dataset, highlighting the most prevalent conditions being treated by drugs.
+Leveraged Tableau to create interactive visualizations illustrating the correlation, rating distribution, top-rated drugs, and seasonal trends, enhancing data exploration and interpretation. We also utilized various visualization techniques to present our findings effectively. For instance, we plotted graphs to illustrate the relationships between variables, such as the correlation between useful count and review length. Additionally, we used a pie chart to visualize the occurrence of the top 10 sickness conditions in the dataset, highlighting the most prevalent conditions being treated by drugs.
 
 ## Conclusion
 
