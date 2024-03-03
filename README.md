@@ -157,8 +157,8 @@ This model aims to classify the sentiment of the drug reviews as Positive and ne
 
 ![image](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/81578500/c213095e-2db6-4606-a44c-535a0d3e3b2d)
 
-Step 1: Data Preparation
-OpenAI chat completion API is prompted to label each of the reviews with sentiments as positive, negative and neutral.
+Step 1: Data Preparation 
+OpenAI chat completion API was prompted to label each of the reviews with sentiments as positive, negative and neutral.
 The labeling was done in bacthes with batch size of 500.
 The labeled reviews are written into CSV file
 
@@ -167,17 +167,20 @@ Utilized BERT to tokenize and embed the review column using Pandas DataFrames.
 BERT (Bidirectional Encoder Representations from Transformers) is employed to convert the textual data into numerical vectors, capturing the semantic meaning of words in the reviews.
 
 Step 3: Neural network Model
-With input features as review embeddings and target as sentiment, a neural network model is built and trained.The accuracy of the model is 64.36%
+To balance the data, drug reviews with positive and negative sentiments were considered, while those with neutral label were dropped.
+
+With input features as review embeddings and target as sentiment, a neural network model was built and trained.The accuracy of the model was 64.36%
 
 <img width="561" alt="image" src="https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/81578500/4559d423-8fd6-4a35-9f7f-0fa930c477e6">
 
 With 2 more features - ratings and useful counts incorporated,the accuracy of the model was at 79.73% and with hyperparameter tuning, model accuracy was at 79.91%
+
 dimensionality reduction on review embeddings using PCA
 
 -For 95% variance, the dimensionality reduction of review embeddings was from 768 to 330 components as seen from the cumulative variance plot.
 ![image](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/81578500/62c31cc2-5c9a-4c02-ab65-b4062243180d)
 
-Accuracy of the redesigned model with reduced dimensionality is 80.62%
+Accuracy of the redesigned model with reduced dimensionality was 80.62%
 
 Step 4: Performance evaluation - stratified k-fold cross-validation with k set to 10
 
