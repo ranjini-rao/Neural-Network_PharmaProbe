@@ -1,5 +1,31 @@
 # Neural-Network_PharmaProbe
 
+## Overview
+
+In today's digital age, patients have unprecedented access to information about medications through online platforms where they can share their experiences and reviews of different drugs. This vast amount of data presents both opportunities and challenges for healthcare professionals, policymakers, and pharmaceutical companies. By analyzing drug review datasets, we can extract valuable insights to improve patient care, identify emerging trends, and support evidence-based decision-making.
+
+Our project aims to leverage advanced data analytics techniques to extract meaningful insights from Drug Review datasets. By analyzing patient reviews, ratings, and associated metadata, we seek to uncover trends, patterns, and correlations that can shed light on medication efficacy, safety, and patient satisfaction. 
+
+## Analyses Conducted
+
+### 1. Correlation Analysis
+
+- **Objective:** Investigate the correlation between drug ratings and useful count values.
+- **Method:** Conducted correlation analysis to examine the relationship between drug ratings and useful count values.
+- **Result:** Found a clear positive correlation between drug ratings and useful count values, indicating that drugs with higher ratings tend to have higher useful counts.
+
+### 2. Rating Distribution Analysis
+
+- **Objective:** Analyze the distribution of drug ratings and identify top-rated drugs.
+- **Method:** Plotted a histogram of ratings to visualize the frequency of each rating value across all drugs. Identified top 20 rated drugs with a perfect rating of 10/10.
+- **Result:** Visualized the distribution of ratings and highlighted the top-rated drugs in the dataset.
+
+### 3. Seasonal Impact Analysis
+
+- **Objective:** Determine if seasonal variations impact drug rating values.
+- **Method:** Calculated the average ratings received per season to explore potential trends or patterns in ratings across different seasons.
+- **Result:** Investigated whether there are noticeable fluctuations in ratings based on the season in which the drug reviews were made.
+
 # Project Outline
 
 <img width="657" alt="image" src="https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/81578500/b763e3b1-c4ca-4f85-92d7-5f99ce9ce16e">
@@ -31,7 +57,7 @@ We analyzed categorical columns in the dataset, particularly focusing on sicknes
 
 ## Visualization
 
-We utilized various visualization techniques to present our findings effectively. For instance, we plotted graphs to illustrate the relationships between variables, such as the correlation between useful count and review length. Additionally, we used a pie chart to visualize the occurrence of the top 10 sickness conditions in the dataset, highlighting the most prevalent conditions being treated by drugs.
+Leveraged Tableau to create interactive visualizations illustrating the correlation, rating distribution, top-rated drugs, and seasonal trends, enhancing data exploration and interpretation. We also utilized various visualization techniques to present our findings effectively. For instance, we plotted graphs to illustrate the relationships between variables, such as the correlation between useful count and review length. Additionally, we used a pie chart to visualize the occurrence of the top 10 sickness conditions in the dataset, highlighting the most prevalent conditions being treated by drugs.
 
 ## Conclusion
 
@@ -92,7 +118,7 @@ Given we can now predict drug cluster with high accuracy, we will have high conf
 2. This can also be useful for seller companies to advertise/promote/recommend similar drugs if a customer is interested in particular type of drug.
 
 
-### Neural Network for Classifying Conditions
+# Neural Network for Classifying Conditions
 
 This neural network project aims to classify the condition cluster based on drug reviews. The project utilizes various techniques such as tokenization, embedding, data preprocessing, neural network classification, hyperparameter tuning, and feature engineering.
 
@@ -126,10 +152,7 @@ Incorporated sentiment analysis of the reviews as an additional feature.
 Created dummy columns for sentiment analysis results.
 Repeated Steps 2-4 with the augmented feature set, including sentiment analysis results.
 
-Conclusion:
-This project demonstrates the use of neural networks for classifying condition clusters based on drug reviews. By leveraging advanced techniques such as tokenization, embedding, hyperparameter tuning, and feature engineering, the model's predictive accuracy and robustness are enhanced. Future improvements may involve exploring alternative neural network architectures, experimenting with different embeddings, and further refining feature engineering strategies.
-
-### Neural Network for Sentimental Analysis
+# Neural Network for Sentimental Analysis
 This model aims to classify the sentiment of the drug reviews as Positive and negative. 
 
 ![image](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/81578500/c213095e-2db6-4606-a44c-535a0d3e3b2d)
@@ -163,33 +186,12 @@ From this metrics, we see that the model has an average accuracy of 80.1% with s
 ![image](https://github.com/ranjini-rao/Neural-Network_PharmaProbe/assets/81578500/1768c5d8-2b25-408c-96af-859ea8564ede)
 
 
-Sure, here's a README.md format summarizing the analyses described in the previous two messages:
+# Conclusion:
 
----
+This project demonstrates the use of neural networks for classifying condition clusters based on drug reviews. By leveraging advanced techniques such as tokenization, embedding, hyperparameter tuning, and feature engineering, the model's predictive accuracy and robustness are enhanced. Future improvements may involve exploring alternative neural network architectures, experimenting with different embeddings, and further refining feature engineering strategies.
 
-# Drug Analysis README
 
-## Overview
 
-This repository contains analyses conducted on drug data to explore the relationship between drug ratings and various factors.
 
-## Analyses Conducted
 
-### 1. Correlation Analysis
-
-- **Objective:** Investigate the correlation between drug ratings and useful count values.
-- **Method:** Conducted correlation analysis to examine the relationship between drug ratings and useful count values.
-- **Result:** Found a clear positive correlation between drug ratings and useful count values, indicating that drugs with higher ratings tend to have higher useful counts.
-
-### 2. Rating Distribution Analysis
-
-- **Objective:** Analyze the distribution of drug ratings and identify top-rated drugs.
-- **Method:** Plotted a histogram of ratings to visualize the frequency of each rating value across all drugs. Identified top 20 rated drugs with a perfect rating of 10/10.
-- **Result:** Visualized the distribution of ratings and highlighted the top-rated drugs in the dataset.
-
-### 3. Seasonal Impact Analysis
-
-- **Objective:** Determine if seasonal variations impact drug rating values.
-- **Method:** Calculated the average ratings received per season to explore potential trends or patterns in ratings across different seasons.
-- **Result:** Investigated whether there are noticeable fluctuations in ratings based on the season in which the drug reviews were made.
 
